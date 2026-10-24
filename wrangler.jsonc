@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "my-shifts",
+	"main": "src/index.js",
+	"compatibility_date": "2026-10-19",
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	"kv_namespaces": [
+		{
+			"binding": "ROSTER_KV",
+			"id": "b830075dc23b47cbbe14a1905191d7c1"
+		}
+	]
+}

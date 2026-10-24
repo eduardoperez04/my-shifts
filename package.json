@@ -1,0 +1,20 @@
+{
+  "name": "my-shifts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.4.3",
+    "vitest": "~5.0.3",
+    "wrangler": "^4.152.0"
+  },
+  "dependencies": {
+    "ical-generator": "^11.1.2",
+    "luxon": "^3.7.2"
+  }
+}
